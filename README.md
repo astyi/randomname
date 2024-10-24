@@ -3,7 +3,7 @@
 
 ### 使用
 ```
-go get github.com/DanPlayer/randomname
+go get github.com/astyi/randomname
 
 name := randomname.GenerateName()
 

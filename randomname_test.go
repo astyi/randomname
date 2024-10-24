@@ -6,12 +6,11 @@ import (
 )
 
 func TestGenerateName(t *testing.T) {
-	name := GenerateName()
-	fmt.Println(name)
+	for i := 0; i < 100; i++ {
+		name := GenerateName()
+		fmt.Println(name)
 
-	name = GenerateName()
-	fmt.Println(name)
-
-	name = GenerateName()
-	fmt.Println(name)
+		name = GenerateNameNotExceedLen(8)
+		fmt.Println(name)
+	}
 }

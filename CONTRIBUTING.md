@@ -17,7 +17,7 @@
 
 1. 克隆项目的代码库：
 ```
-$ git clone https://github.com/DanPlayer/randomname
+$ git clone https://github.com/astyi/randomname
 ```
 
 2. 创建新的分支：
